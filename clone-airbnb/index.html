@@ -2,8 +2,37 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <!-- IE 브라우저에서 최신 버전으로 렌더링 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <title>Clone coding</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <img src="./imgs/comp_0685990 (1).png" alt="fast campus logo" id="logo" />
+      <div id="little-search">
+        <!-- -는 블록 개념이고 _는 요소 개념, BEM 방법론 -->
+        <button class="little-search_button">어디든지</button
+        ><span class="divider"></span>
+        <button class="little-search_button">언제든 일주일</button
+        ><span class="divider"></span>
+        <button class="little-search_button">게스트 추가</button>
+        <div id="magnifying-glass-wrapper">
+          <img
+            src="./imgs/Magnifying_glass_icon.svg"
+            alt="magnifying glass icon"
+            id="magnifying-glass-icon"
+          />
+        </div>
+      </div>
+      <div id="header-right-section">
+        <div id="do-airbnb">당신의 강의를 패스트캠퍼스하세요.</div>
+        <div id="profile-section">
+          <img width="16" src="./imgs/list.svg" alt="list icon" />
+          <img width="30" src="./imgs/user-circle.svg" alt="user circle icon" />
+        </div>
+      </div>
+    </header>
+  </body>
 </html>
